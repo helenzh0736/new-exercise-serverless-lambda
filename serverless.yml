@@ -4,7 +4,7 @@ service: new-exercise-serverless-lambda
 provider:
   name: aws
   runtime: nodejs12.x
-  lambdaHashingVersion: 20201221
+  #lambdaHashingVersion: 20201221
   stage: dev
   region: ap-southeast-2
 
